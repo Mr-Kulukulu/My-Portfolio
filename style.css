@@ -7,6 +7,7 @@
 }
 img{
     max-width: 100%;
+
 }
 
 
@@ -35,18 +36,16 @@ z-index: 1;
 .container {
     max-width: 1200px;
     margin: auto;
+    position: relative;
+   
 }
 .hero-container-root{
-background-color: #fff8f3;
-background-image: url(images/header_bg.png);
-  background-repeat: no-repeat;
-  background-position-x: left;
-  background-size: cover;
+    background-color: #FFF8F3;
 }
 nav {
     display: flex;
     justify-content: space-between;
-
+/* background-color: #FD6E0A;. */
     max-width: 1200px;
     margin: auto;
     padding: 10px 0;
@@ -113,4 +112,17 @@ ul {
 .clone-button img{
     height: 20px;
   
+}
+.hero-right{
+    position: relative;
+   
+}
+.profile-background{
+    position: absolute;
+  margin-top: 100px;
+ 
+}
+.profile{
+    position: relative;
+    
 }
