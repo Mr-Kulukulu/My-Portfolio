@@ -5,7 +5,8 @@
     font-family: "Open Sans", sans-serif;
 
 }
-img{
+
+img {
     max-width: 100%;
 
 }
@@ -37,15 +38,17 @@ z-index: 1;
     max-width: 1200px;
     margin: auto;
     position: relative;
-   
+
 }
-.hero-container-root{
+
+.hero-container-root {
     background-color: #FFF8F3;
 }
+
 nav {
     display: flex;
     justify-content: space-between;
-/* background-color: #FD6E0A;. */
+    /* background-color: #FD6E0A;. */
     max-width: 1200px;
     margin: auto;
     padding: 10px 0;
@@ -73,7 +76,7 @@ ul {
     gap: 10px;
 }
 
-.hero{
+.hero {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -98,9 +101,10 @@ ul {
     display: flex;
     gap: 18px;
 
-    margin:1rem 0;
+    margin: 1rem 0;
 }
-.contact-btn{
+
+.contact-btn {
     display: flex;
     color: #FD6E0A;
     background-color: transparent;
@@ -109,20 +113,24 @@ ul {
     align-items: center;
     gap: 10px;
 }
-.clone-button img{
+
+.clone-button img {
     height: 20px;
-  
+
 }
-.hero-right{
+
+.hero-right {
     position: relative;
-   
+
 }
-.profile-background{
+
+.profile-background {
     position: absolute;
-  margin-top: 100px;
- 
+    margin-top: 100px;
+
 }
-.profile{
+
+.profile {
     position: relative;
-    
+
 }
