@@ -134,21 +134,73 @@ ul {
     position: relative;
 
 }
+
 .about-me {
-background-color: #FFF8F3;
-text-align: center;
-/* margin: 100px 0; */
-margin: 100px auto;
-padding: 100px;
+    background-color: #FFF8F3;
+    text-align: center;
+    /* margin: 100px 0; */
+    margin: 100px auto;
+    padding: 100px;
 
 }
-.about-me p{
+
+.about-details p {
     margin: 20px;
 }
-.about-details{
+
+.about-details {
     display: flex;
 
     justify-content: space-between;
-   
+}
 
+.work-details {
+    background-color: #FFF8F3;
+    text-align: center;
+    padding: 50px;
+}
+
+.work-details p {
+    margin: 30px 0;
+    font-size: 17px;
+}
+
+.skills {
+    display: flex;
+
+    margin-top: 50px;
+
+    gap: 25px;
+}
+
+
+.box {
+    flex: 1;
+    text-align: left;
+    border-radius: 12px;
+    padding: 80px 40px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* padding: 20px; */
+    min-height: 320px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.box:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 16px 35px rgba(0, 0, 0, 0.2);
+}
+
+.box img {
+    margin-bottom: 20px;
+}
+
+.box h2 {
+    min-height: 60px;
+    margin: 20px 0;
+
+}
+
+.box p {
+    line-height: 1.6;
+    color: #555;
 }
