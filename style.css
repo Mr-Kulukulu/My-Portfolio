@@ -134,3 +134,21 @@ ul {
     position: relative;
 
 }
+.about-me {
+background-color: #FFF8F3;
+text-align: center;
+/* margin: 100px 0; */
+margin: 100px auto;
+padding: 100px;
+
+}
+.about-me p{
+    margin: 20px;
+}
+.about-details{
+    display: flex;
+
+    justify-content: space-between;
+   
+
+}
